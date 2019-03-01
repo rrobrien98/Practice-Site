@@ -1,14 +1,15 @@
 html {
   font-family: "Lucida Sans", sans-serif;
 }
+* {
+  box-sizing: border-box;
+}
 [class*="col-"] {
   float: left;
   padding: 15px;
   border: 1px solid red;
 }
-{
-  box-sizing: border-box;
-}
+
 
 .row::after {
   content: "";
