@@ -4,3 +4,7 @@ function showMenu() {
 function hideMenu() {
  document.getElementById("menu").style.display='none';
 }
+$(function(){
+  $("#header").load("header.html"); 
+  
+});
