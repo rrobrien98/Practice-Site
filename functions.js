@@ -4,4 +4,4 @@ function showMenu() {
 function hideMenu() {
  document.getElementById("menu").style.display='none';
 }
-$( "#header" ).load( "header.html" );
+
