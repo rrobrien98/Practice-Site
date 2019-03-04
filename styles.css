@@ -7,7 +7,7 @@ html {
 [class*="col-"] {
   float: left;
   padding: 15px;
-  border: 1px solid red;
+  
 }
 
 
@@ -37,5 +37,5 @@ h1{
 color: blue
 }
 p{
-color: red
+color: black
 }
