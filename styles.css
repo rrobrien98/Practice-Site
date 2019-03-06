@@ -11,7 +11,7 @@ html {
 }
 
 
-.row::after {
+.header::after {
   content: "";
   clear: both;
   display: table;
@@ -38,4 +38,7 @@ color: blue
 }
 p{
 color: black
+}
+.header{
+  background-color: blue
 }
