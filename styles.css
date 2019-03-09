@@ -44,14 +44,14 @@ color: black
 }
 .image{
   
-  width: 100px;
-  height: 50px;
+  width: 700px;
+  height: auto;
   
   
 }
 .image:hover{
-  width:20px;
-  height: 50px;
+  width:100px;
+  height: auto;
 }
 img{
     max-width: 100%;
