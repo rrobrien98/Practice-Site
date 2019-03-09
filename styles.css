@@ -43,8 +43,12 @@ color: black
   background-color: green
 }
 .image{
-  width: 50px;
+  
+  width: 100px;
   height: 50px;
+  background-image:"concert.jpg";
+  
+  background-size: contain;
 }
 .image:hover{
   width:20px;
