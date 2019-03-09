@@ -31,16 +31,17 @@ html {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 body{
-background-color: Coral
+background-color: Coral;
+transition: background 1s;
 }
 h1{
-color: blue
+color: blue;
 }
 p{
-color: black
+color: black;
 }
 .header{
-  background-color: green
+  background-color: green;
 }
 .image img{
   
