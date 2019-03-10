@@ -11,7 +11,10 @@ setInterval(function(){
     current++;
     if (current == bg_colors.length) current = 0;
 }, 5000);
-var likes = 0;
+
 function addLike(){
- likes++;
+    
+     
+     document.getElementById("like_count").innerHTML = "Thank You!";
+   
 }
