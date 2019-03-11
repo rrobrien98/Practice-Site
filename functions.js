@@ -17,7 +17,7 @@ function addLike(){
      var str_likes = localStorage.getItem("likes");
      likes = parseInt(str_likes);
      likes++;
-     localStorage.setItem("likes", likes);
+     localStorage.setItem("likes", likes.toString());
      document.getElementById("like_count").innerHTML = likes;
    
 }
