@@ -20,4 +20,3 @@ function addLike(){
      document.getElementById("like_count").innerHTML = likes;
    
 }
-}
