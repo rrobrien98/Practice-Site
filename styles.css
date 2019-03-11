@@ -59,7 +59,12 @@ color: black;
   width:700px;
   height: 50px;
 }
-
+.image ul{
+  display:none;
+}
+.image:hover ul{
+  display:block;
+}
 
 .image:hover p{
   display:block;
