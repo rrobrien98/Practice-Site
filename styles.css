@@ -47,6 +47,8 @@ color: black;
   
   width: 700px;
   height: auto;
+  display:inline-block;
+  margin:0 5px;
   
   
 }
@@ -61,5 +63,8 @@ color: black;
 
 .image:hover p{
   display:block;
+}
+.image{
+  text-align:center;
 }
 
