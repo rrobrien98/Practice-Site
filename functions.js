@@ -13,7 +13,7 @@ setInterval(function(){
 }, 5000);
 var likes = 0;
 function addLike(){
-    
+     likes++;
      
      document.getElementById("like_count").innerHTML = likes;
    
