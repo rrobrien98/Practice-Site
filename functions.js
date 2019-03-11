@@ -15,7 +15,7 @@ localStorage.setItem("likes", likes);
 function addLike(){
      var likes = localStorage.getItem("likes");
      likes++;
-     localStorage.setItem("likes" likes);
+     localStorage.setItem("likes", likes);
      document.getElementById("like_count").innerHTML = likes;
    
 }
