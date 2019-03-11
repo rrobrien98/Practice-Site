@@ -20,6 +20,8 @@ css sheets that varied the background color at a constant rate between an array 
 implementing funcitons with js, so I used a js funciton that would allow me to loop through an array of colors. My goal with the like
 function was to have a js variable that could be changed from any page in the site, giving a cumulative like count. I tried to 
 accomplish this by setting the like count as a global variable on local storage, but this did not end up working. 
+Another challenge was that I was unable to get the proper system permissions on my pc to install jekyll, so I used another library to
+help me import headers and footers to create a layout of sorts. For this I used jquery to load separate html files into my index file.
 
 Credits:
 StackOverflow and W3schools for coding snippets
