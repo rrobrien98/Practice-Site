@@ -4,7 +4,7 @@ function showMenu() {
 function hideMenu() {
  document.getElementById("menu").style.display='none';
 }
-var bg_colors = ['coral', 'blue', 'yellow'];
+var bg_colors = ['coral', 'red', 'yellow'];
 var current = 0;
 setInterval(function(){
     document.querySelector('body').style.background = bg_colors[current];
